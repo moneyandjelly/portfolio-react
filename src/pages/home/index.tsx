@@ -51,36 +51,41 @@ const MainPage = () => {
         <section className="mb-16">
           <h2 className="text-3xl font-semibold mb-8">Team Projects</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <a href="https://mycooing.com/" target="_blank">
+              <div className="bg-gray-800 rounded-xl overflow-hidden hover:-translate-y-1 transition-transform">
+                <div className="p-6">
+                  <h3 className="text-lg font-medium mb-2">인플루언서 성장 전략 서비스</h3>
+                  <p className="text-sm text-gray-400 mb-4">SNS 로그인 / 토스 결제 / 게시판</p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-xs">Vue</span>
+                    <span className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-xs">Django</span>
+                    <span className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-xs">Redis</span>
+                    <span className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-xs">Mysql</span>
+                  </div>
+                </div>
+              </div>
+            </a>
             <div className="bg-gray-800 rounded-xl overflow-hidden hover:-translate-y-1 transition-transform">
               <div className="p-6">
-                <h3 className="text-lg font-medium mb-2">E-commerce Platform</h3>
-                <p className="text-sm text-gray-400 mb-4">Microservices architecture with Node.js</p>
+                <h3 className="text-lg font-medium mb-2">음식 레시피 추천 서비스</h3>
+                <p className="text-sm text-gray-400 mb-4">SNS 로그인 / 일반 로그인 / 카카오 결제 / 게시판</p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-xs">Node.js</span>
-                  <span className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-xs">MongoDB</span>
+                  <span className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-xs">Vue</span>
+                  <span className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-xs">Django</span>
                   <span className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-xs">Redis</span>
+                  <span className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-xs">Mysql</span>
                 </div>
               </div>
             </div>
             <div className="bg-gray-800 rounded-xl overflow-hidden hover:-translate-y-1 transition-transform">
               <div className="p-6">
-                <h3 className="text-lg font-medium mb-2">Real-time Chat System</h3>
-                <p className="text-sm text-gray-400 mb-4">WebSocket based messaging platform</p>
+                <h3 className="text-lg font-medium mb-2">러닝화 판매 서비스</h3>
+                <p className="text-sm text-gray-400 mb-4">일반 로그인 / 게시판</p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-xs">WebSocket</span>
+                  <span className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-xs">Vue</span>
+                  <span className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-xs">Django</span>
                   <span className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-xs">Redis</span>
-                  <span className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-xs">AWS</span>
-                </div>
-              </div>
-            </div>
-            <div className="bg-gray-800 rounded-xl overflow-hidden hover:-translate-y-1 transition-transform">
-              <div className="p-6">
-                <h3 className="text-lg font-medium mb-2">Authentication Service</h3>
-                <p className="text-sm text-gray-400 mb-4">OAuth2 and JWT implementation</p>
-                <div className="flex flex-wrap gap-2">
-                  <span className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-xs">Spring Boot</span>
-                  <span className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-xs">PostgreSQL</span>
-                  <span className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-xs">JWT</span>
+                  <span className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-xs">Mysql</span>
                 </div>
               </div>
             </div>
