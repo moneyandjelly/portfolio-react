@@ -1,9 +1,15 @@
 import axios from "axios";
 import { BASE_URL } from "../../constants";
 
-export const requestUserInfo = async (userToken) => {
+interface UserInfo {
+    id: string;
+    nickname: string;
+    userToken: string;
+}
+
+export const requestUserInfo = async (userToken: string): Promise<UserInfo> => {
   try {
-    const response = await axios.get(`${BASE_URL}/profile/userinfo`, {
+    const response = await axios.get<UserInfo>(`${BASE_URL}/profile/userinfo`, {
       headers: {
         Authorization: `Bearer ${userToken}`,
       },
