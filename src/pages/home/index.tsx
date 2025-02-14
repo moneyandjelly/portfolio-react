@@ -2,7 +2,9 @@ import { Terminal, Database, Server, GitBranch } from 'lucide-react';
 import "./styles/index.scss";
 
 // 컴포넌트
-import KakaoLogin from "./components/snsLogin/index"
+import KakaoLogin from "./components/snsLogin/kakaoLogin"
+import GoogleLogin from "./components/snsLogin/googleLogin"
+import NaverLogin from "./components/snsLogin/naverLogin"
 
 const MainPage = () => {
   return (
@@ -94,7 +96,26 @@ const MainPage = () => {
             </div>
           </div>
         </section>
-        <KakaoLogin />
+        <section className="mb-16">
+          <h2 className="text-3xl font-semibold mb-8">SNS Login</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="bg-gray-800 rounded-xl overflow-hidden hover:-translate-y-1 transition-transform">
+              <div className="p-6">
+                <KakaoLogin />
+              </div>
+            </div>
+            <div className="bg-gray-800 rounded-xl overflow-hidden hover:-translate-y-1 transition-transform">
+              <div className="p-6">
+                <GoogleLogin />
+              </div>
+            </div>
+            <div className="bg-gray-800 rounded-xl overflow-hidden hover:-translate-y-1 transition-transform">
+              <div className="p-6">
+                <NaverLogin />
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
